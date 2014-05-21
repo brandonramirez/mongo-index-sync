@@ -9,6 +9,9 @@
   "scripts": {
     "test": "vows"
   },
+  "engines" : {
+    "node" : ">=0.10"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/brandonramirez/mongo-index-sync.git"
