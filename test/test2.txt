@@ -1,0 +1,2 @@
+db.organizations.ensureIndex({ domains: 1 }, { unique: true, sparse: false, name: 'domains' });
+db.organizations.ensureIndex({ fieldA: -1, fieldB: 1 }, { unique: false, sparse: true, name: 'fieldA_B' });

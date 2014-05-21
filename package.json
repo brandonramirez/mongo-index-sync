@@ -1,0 +1,41 @@
+{
+  "name": "mongo-index-sync",
+  "version": "0.0.0",
+  "description": "Update a live MongoDB database's indexes based on files in source control",
+  "main": "lib/sync.js",
+  "bin": {
+    "mongo-index-sync": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "vows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brandonramirez/mongo-index-sync.git"
+  },
+  "keywords": [
+    "mongodb",
+    "index",
+    "dba",
+    "database",
+    "administration",
+    "schema",
+    "deploy"
+  ],
+  "author": "Brandon Ramirez",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/brandonramirez/mongo-index-sync/issues"
+  },
+  "homepage": "https://github.com/brandonramirez/mongo-index-sync",
+  "dependencies": {
+    "async": "^0.9.0",
+    "extend": "^1.2.1",
+    "mongodb": "^1.4.4",
+    "nomnom": "^1.6.2",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "vows": "^0.7.0"
+  }
+}

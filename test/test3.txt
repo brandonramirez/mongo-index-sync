@@ -1,0 +1,4 @@
+db.collection1.ensureIndex({ fieldA: 1, fieldB: -1, fieldC: 1 }, { name: 'field_A_B_C' });
+db.collection1.ensureIndex({ fieldB: 1, fieldZ: 1 }, { unique: true, name: 'unique_B_Z' });
+
+db.collection2.ensureIndex({ lastChangeDate: -1 }, { sparse: true, name: 'last_changed' });
