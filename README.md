@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brandonramirez/mongo-index-sync.svg)](https://travis-ci.org/brandonramirez/mongo-index-sync)
+
 mongo-index-sync
 ================
 
